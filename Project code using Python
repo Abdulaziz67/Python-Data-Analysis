@@ -1,0 +1,29 @@
+name = input("enter your name : ")
+
+weight = int(input("enter your weight : "))
+
+hight = float(input("enter your hight : "))
+
+BMI = (weight) / (hight * hight)
+
+print(BMI)
+
+if (BMI <= 18.5):
+    print(name + ", you are thin .")
+
+elif (BMI <= 25):
+    print(name + ", you are normal .")
+    
+elif (BMI <= 30):
+    print(name + ", you are overweight .")
+    
+elif (BMI > 31):
+    print(name + ", you are obese .")
+    
+else:
+    print("enter valid numbers .")
+enter your name : Abdulaziz
+enter your weight : 62
+enter your hight : 1.7
+21.453287197231838
+Abdulaziz, you are normal .
